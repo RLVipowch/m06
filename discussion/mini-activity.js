@@ -1,4 +1,5 @@
 function getColorForDayOfWeek(dayOfWeek) {
+    console.log(dayOfWeek)
 	if (typeof dayOfWeek === 'string') {
         switch (dayOfWeek.toLowerCase()) {
             case 'monday':
@@ -32,6 +33,7 @@ function getColorForDayOfWeek(dayOfWeek) {
 }
 
 getColorForDayOfWeek('Monday'); 
+console.log("print")
 //getColorForDayOfWeek('Tuesday'); 
 //getColorForDayOfWeek('Wednesday'); 
 //getColorForDayOfWeek('Thursday'); 
